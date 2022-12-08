@@ -10,7 +10,7 @@ while (i!=0):
             shag = float(input("Введи расстояние шага: "))
         except ValueError:
             print("Error, введи число")
-            shag = float(input("Введи расстояние шага: "))
+            shag = 0
         if (shag < 0):
             print("Шаг не может быть отрицательным")
             shag = float(input("Введи расстояние шага: "))
@@ -21,7 +21,7 @@ while (i!=0):
             shag = float(input("Введи расстояние шага: "))
         except ValueError:
             print("Error, введи число")
-            shag = float(input("Введи расстояние шага: "))
+            shag = 0
         if (shag < 0):
             print("Шаг не может быть отрицательным")
             shag = float(input("Введи расстояние шага: "))
@@ -32,7 +32,7 @@ while (i!=0):
             shag = float(input("Введи расстояние шага: "))
         except ValueError:
             print("Error, введи число")
-            shag = float(input("Введи расстояние шага: "))
+            shag = 0
         if (shag < 0):
             print("Шаг не может быть отрицательным")
             shag = float(input("Введи расстояние шага: "))
@@ -43,7 +43,7 @@ while (i!=0):
             shag = float(input("Введи расстояние шага: "))
         except ValueError:
             print("Error, введи число")
-            shag = float(input("Введи расстояние шага: "))
+            shag = 0
         if (shag < 0):
             print("Шаг не может быть отрицательным")
             shag = float(input("Введи расстояние шага: "))
