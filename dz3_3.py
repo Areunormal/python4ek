@@ -1,8 +1,9 @@
 import cmath as cm
 i = 0
 while (i != 1):
+    print("Введи коэффициенты a,b,c в твоем уравнении(через пробел): ")
     try:
-        a,b,c=map(complex,input("Введи коэффициенты a,b,c в твоем уравнении(через пробел): ").split())
+        a,b,c=map(complex,input().split())
     except ValueError:
         print("Error, коэффициенты должны быть числами")
     else:

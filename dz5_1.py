@@ -1,5 +1,10 @@
 parol=str(input("Введите пароль: "))
 def passwd(parol):
+    """Proverka parolya
+    
+    Na dlinu, nalichie cifr i nalichie slova password
+    
+    """
     kolvo = 0
     flag = 0
     if len(parol)<6:

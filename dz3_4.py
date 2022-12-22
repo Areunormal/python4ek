@@ -1,8 +1,9 @@
 import math as m
 i =  0
 while (i != 1):
+    print("Введи коэффициенты a,b,c в твоем уравнении(через пробел): ")
     try:
-        a,b,c=map(float,input("Введи коэффициенты a,b,c в твоем уравнении(через пробел): ").split())
+        a,b,c=map(float,input().split())
     except ValueError:
         print("Error, коэффициенты должны быть числами")
     else:

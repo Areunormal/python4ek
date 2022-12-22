@@ -11,6 +11,7 @@ while True:
             print("Error, vvedi chislo: ")
     else:
         print("Error, vvedi + ili -")
+
 for i in range(len(chisla)-1):
     for j in range  (len(chisla)-i-1):
         if chisla[j] > chisla [j+1]:
@@ -19,5 +20,5 @@ for i in range(len(chisla)-1):
             chisla[j] = b
             chisla[j+1] = a
         else:
-            None  
+            None 
 print(chisla)
